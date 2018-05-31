@@ -1,0 +1,267 @@
+body{
+    background: #F6F6F6;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.no-display {
+    display:none;
+}
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+.bold-font {
+    font-family: 'Roboto 7r';
+}
+
+.medium-font {
+    font-family: 'Roboto 4r';
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.no-border-box {
+    border: 0;
+}
+
+/* ============================== Global Header CSS starts here =================================== */
+
+#header.global-header {
+    display: block;
+    min-width: 1024px;
+    position: relative;
+    width: 100%;
+    z-index: 999999;
+}
+
+.global-header #header-container {
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.global-header #persistent_bar_container {
+    background: #fff;
+    border-bottom: 1px solid #aaa;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5px 0 10px;
+}
+
+.global-header #logo {
+    float: left;
+    margin: 0px;
+    
+}
+
+.global-header div#prawns_logo img {
+    position: relative;
+    width: 69px;
+    left: 11px;
+    top: 20px;
+}
+
+.global-header .nav-link-container:hover {
+
+    cursor: hand;
+}
+
+.global-header .grilled-prawns-text-style {
+    color: #EA474C;
+    padding-top: 45px;
+    padding-left: 20px;
+    font-family: "Roboto 5r", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.global-header .nav-link-container
+ {
+    background: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    float: right;
+    height: 73px;
+    line-height: 0;    
+    margin-left: 0px;
+    padding-top: 39px;
+    text-align: center;
+    width: 138px;
+}
+
+.global-header .nav-link-container.about-prawns-width {
+    width: 227px;
+    padding-right: 30px;
+}
+
+.global-header .nav-link-container .nav-link-container-title {
+    color: #4a4a4a;
+    font-family: "Roboto 5r", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+
+/* ============================= Header Ends  ==========================================*/
+/* ============================= Button Starts  ==========================================*/
+.white-btn-with-arrow {
+    background: #ffffff url(../images/arrow_right.png) no-repeat 100px 14px;
+    border: 1px solid #aaa;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #454545;
+    display: block;
+    font-size: 13px;
+    height: 38px;
+    padding: 10px 42px 14px 10px;
+}
+
+.red-btn {
+    border: 1px solid #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    height: 34px;
+    background: #E9474B;
+    width: 138px;
+    margin-top: 23px;
+}
+/* ============================= Button Ends  ==========================================*/
+
+/* ============================= Footer CSS Starts ==========================================*/
+
+.footer-global {
+    background-color: #f0f0f0
+}
+
+.footer-slot {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f0f0f0
+}
+
+.footer-links__category {
+    width: 17.9688%
+}
+
+.footer-links {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1.25em;
+    border-bottom: 1px solid #ccc
+}
+.footer-slot .footer-links__category__header {
+    font-family: 'Roboto 4r',Helvetica,Arial;
+    margin-top: 0;
+    font-size: .875em;
+    color: #454545;
+    
+    margin-bottom: 8%;
+}
+#footer .footer-links__category-list__item {
+    padding-bottom: .25em;
+    line-height: 1
+}
+#footer .footer-links__category-list__item:last-child {
+    padding-bottom: 0
+}
+.footer-slot .footer-links__category-list__link {
+    font-family: 'Roboto 4r',Helvetica,Arial;
+    font-size: .75em;
+    color: #E9474B;
+    text-decoration: none
+}
+
+.footer-slot .email-link-padding {
+    padding-top: 10px;
+    padding-bottom: 28px;
+}
+
+.footer-links__category-list__item .pb11 {
+    padding-bottom: 11px;
+}
+
+.footer-global .pt17{
+    padding-top: 17px;
+}
+
+.footer-global .pt10{
+    padding-top: 10px;
+}
+
+.footer-links__category-list{
+    color: #4A4A4A;
+}
+/* ============================= Footer CSS Ends ==========================================*/
+
+
+
+

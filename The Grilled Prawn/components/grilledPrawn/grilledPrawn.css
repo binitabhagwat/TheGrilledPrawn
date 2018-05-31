@@ -1,0 +1,405 @@
+/*image container starts */
+.image-desc-container {
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Roboto 4r',Helvetica,Arial;
+    height: auto;
+    margin: 35px auto;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.image-desc-container .col1{
+    float: left;
+    width: 75%;
+}
+
+.image-desc-container .col1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-desc-container .col2{
+    background-color:#E9474B;
+    color: #fff;
+    float: left;
+    width: 25%;
+    padding: 16px;
+    height: 363px;
+}
+
+.image-desc-container .latest-receipe-style {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding-bottom:10px;
+}
+
+.image-desc-container .receipe-name-style {
+   font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.image-desc-container .receipe-desc-style {
+   font-size: 12px; 
+   letter-spacing: 0.3px;
+   line-height: 16px;
+    padding-bottom:20px;
+}
+/*image container ends */
+/*multipule products css starts*/
+.cstm-container {
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Roboto 4r',Helvetica,Arial;
+    height: auto;
+    margin: 35px auto;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    width: 80%;
+}
+.no-style {
+    list-style:
+    none;padding:0;
+}
+.cstm-box{
+    padding:20px;
+    overflow: auto;
+}
+.accordian-box {
+    background:red;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    /*font-size: 22px;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* The container */
+.check-box {
+    background:#ea585b;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    padding-top:2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+.check-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius:50%;
+    background-color: #ffffff;
+}
+/* On mouse-over, add a grey background color */
+.check-box:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+/* When the checkbox is checked, add a blue background */
+.check-box input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.check-box input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-box .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 4px;
+    height: 10px;
+    border: solid #222;
+    border-width: 0 1.5px 1.5px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.accordion {
+    background-color: #ea585b;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 25%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ea585b;
+}
+
+.panel {
+    padding: 0;
+    background-color: #ea585b;
+    max-height: 0;
+    overflow: hidden;
+    color:#fff;
+    transition: max-height 0.2s ease-out;
+    font-size:14px;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    background: url(../images/arrow_right.png) no-repeat 100px 14px;
+    color: #fff;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.cstm-container h1,.cstm-container h2{
+    font-size: 22px;
+    padding-bottom: 25px;
+    color: #4A4A4A;
+   
+}
+
+.fs-12 {
+    font-size:12px;
+}
+
+.mt0 {
+    margin-top:0;
+}
+
+.mt10 {
+    margin-bottom:10px;
+}
+.p10 {
+    padding:10px;
+}
+
+.plr10 {
+    padding:0 10px;
+}
+
+.mlr1 {
+    margin:0 1%;
+}
+.cstm-col-md-2-5 {
+    width: 23%;
+    float: left;
+}
+.cstm-col-md-3 {
+    width: 25%;
+    float: left;
+}
+
+.cstm-col-md-4 {
+    width: 33.33%;
+    float: left;
+}
+.cstm-col-md-9 {
+    width: 75%;
+    float:left;
+}
+.mb0 {
+    margin-bottom:0;
+}
+.cstm-sort {
+    width: 25%;
+    display: inline;
+}
+.cstm-sort-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+.cstm-select{
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px solid #2F363E;
+    width: 136px;
+    color: #2F363E;
+}
+
+.pull-left
+{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.cstm-responsive{
+    width:100%;
+}
+
+.bg-white{
+    background:#fff;
+}
+
+.scrollTop{
+    color:#ea585b;
+    cursor: pointer;
+}
+
+/*mutliple products css ends*/
+/*form css starts*/
+.forma-container-wrapper {
+    width:100%;
+    background-color: #E9474B;
+    
+}
+.newsletter-para{
+    margin-top: 14px;
+    height: 42px;
+    width: 503px;
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.23px;
+    line-height: 21px;
+}
+.form-container{
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Roboto 4r',Helvetica,Arial;
+    height: auto;
+    margin: 35px auto;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    width: 80%;
+    
+    padding-bottom: 62px;
+}
+.invite-friends-row1{
+    padding-left: 95px;
+}
+
+.invite-friends-row2{
+   
+    clear: left;
+    padding-top: 33px
+}
+
+.form-container input[type=email], .form-container input[type=text] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    height: 34px;
+}
+.position-center{
+    position:relative;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+.message{
+    color:  #009900;            
+    font-family: ".SF NS Display";
+    font-size: 20px;
+
+}
+
+.spread-the-word {          
+   padding-top: 17px;
+   
+   height: 1.27%;
+   color: #FFFFFF;
+   font-size: 34px;
+   letter-spacing: 0.52px;
+}
+.pb5 {
+    padding-bottom:5px;
+}
+
+.pd0 {
+    padding-top :0;
+}
+
+.invite-btn {
+    padding-left: 310px;
+    padding-top: 39px;
+}
+
+.invite-btn .white-btn-with-arrow {
+    padding: 10px 42px 14px 19px;
+}
+/*form css ends*/

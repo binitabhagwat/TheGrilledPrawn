@@ -1,11 +1,10 @@
 The Zip file has the HTML,CSS and JS file required to load the Grilled Prawns demo in the browser
 
-
 -- Used ARIA enabled features like "role" in the footer, "for" in the labels and "alt" in the img tag of newsletter invite section.
 
--- The Add Friend functionality uses modular/reveal pattern using fat arrow methods of ES6.
+-- The Add Friend functionality uses modular/reveal pattern using fat arrow methods of ES6, use of let and const keywords in place of "var" which is an old school style of declaring a variable.
 
--- The reusable components are cuddle up into html file but can be used seperatly as per required along with required css.
+-- The html file consists of the reusable components which can be used seperatly to be rendered in multiple places as per requirement.
 
 -- The functionalities covered are add and remove friend, scroll to top, reciepes filter(accordion effect). It is built up using vanilla javascript and ES6.
 
